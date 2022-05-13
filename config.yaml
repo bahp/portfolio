@@ -1,0 +1,178 @@
+portfolio:
+  projects:
+    # ------------------
+    # Personal
+    # ------------------
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/bahp
+      thumbnail: page-linkedin-cv.png
+      visible: true
+      tags: website
+
+    - name: Resume (Wix)
+      url: https://bernardhernandezpe.wixsite.com/bahp
+      thumbnail: page-wix-cv.png
+      visible: true
+      tags: website
+
+    - name: Resume
+      url: https://bahp.github.io/portfolio-web/
+      #thumbnail: website
+      visible: false
+      tags: website
+
+    - name: EPiC IMPOC (Wix)
+      url: https://bernardhernandezpe.wixsite.com/epicimpoc
+      thumbnail: page-wix-epicimpoc.png
+      visible: true
+      tags: website epicimpoc
+
+    - name: heroku-epicimpoc
+      url: http://epicdemo.herokuapp.com/
+      thumbnail: demo-inference.png
+      visible: true
+      tags: demo epicimpoc
+
+    - name: AMR treemap
+      url: https://bahp.github.io/pyAMR/_static/htmls/plot_pyplot_treemap.html
+      thumbnail: demo-amr-tree.png
+      visible: true
+      tags: demo
+
+    - name: epicimpoc-video
+      url: https://www.youtube.com/watch?v=b5e8VxtHFpA
+      thumbnail: youtube-eniapp.png
+      visible: true
+      tags: video epicimpoc
+
+    - name: Techforesight 2040
+      url: https://www.youtube.com/watch?v=r4a4ZbbdlDA
+      thumbnail: youtube-techforesight-2040.png
+      visible: true
+      tags: video epicimpoc
+
+    - name: heroku-ls2d
+      url: http://ls2d-demo.herokuapp.com/
+      thumbnail: demo-ls2d.png
+      visible: true
+      tags: demo
+
+    - name: github-ls2d
+      url: https://github.com/bahp/ls2d/
+      thumbnail: repo-ls2d-docs.png
+      visible: true
+      tags: repository
+
+    - name: github-epicimpoc-microbiology
+      url: https://github.com/bahp/django-epicimpoc-microbiology
+      thumbnail: repo-epicimpoc-microbiology.png
+      visible: true
+      tags: repository epicimpoc
+
+    - name: github-epicimpoc-pathology
+      url: https://github.com/bahp/django-epicimpoc-pathology
+      thumbnail: repo-epicimpoc-pathology.png
+      visible: true
+      tags: repository epicimpoc
+
+    - name: github-epicimpoc
+      url: https://github.com/bahp/fyp-djpkgdev-template
+      thumbnail: repo-epicimpoc.png
+      visible: true
+      tags: repository epicimpoc
+
+    - name: github-pyamr
+      url: https://bahp.github.io/pyAMR/
+      thumbnail: repo-pyamr-docs.png
+      visible: true
+      tags: repository
+
+    - name: github-datablend
+      url: https://bahp.github.io/datablend/
+      thumbnail: repo-datablend-docs.png
+      visible: true
+      tags: repository
+
+    - name: github-js-spare-code
+      url: https://bahp.github.io/js-spare-code/index.html
+      thumbnail: repo-js-spare-code.png
+      visible: true
+      tags: repository demo
+
+    - name: github-python-spare-code
+      url: https://bahp.github.io/python-spare-code/index.html
+      visible: true
+      tags: repository
+
+    # -----------
+    # Manuscripts
+    # -----------
+    - name: MSc Thesis
+      url: http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A703166&dswid=-8707
+      thumbnail: paper-kth-logo.jpeg
+      visible: true
+      tags: manuscript
+      s: 3
+
+    - name: PhD Thesis
+      url: https://spiral.imperial.ac.uk/handle/10044/1/73000
+      visible: true
+      thumbnail: paper-icl-logo.webp
+      tags: manuscript
+      s: 3
+
+    - name: BMC CRP dynamics
+      url: https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-021-06696-2
+      thumbnail: paper-bmc-damien-crp.png
+      visible: true
+      tags: manuscript
+      s: 3
+
+    - name: JAC SML covid
+      url: https://academic.oup.com/jacamr/article/3/1/dlab002/6127116?login=false
+      thumbnail: paper-jac-tim-sml-covid.png
+      visible: true
+      tags: manuscript
+      s: 3
+
+    - name: CID CBR prospective
+      url: https://academic.oup.com/cid/article-abstract/72/12/2103/5815768?redirectedFrom=fulltext&login=false
+      thumbnail: paper-cid-tim-cbr.png
+      visible: true
+      tags: manuscript
+      s: 3
+
+    - name: JAC SML prospective
+      url: https://academic.oup.com/jac/article/74/4/1108/5258037?login=false
+      thumbnail: paper-jac-tim-sml-prospective.png
+      visible: true
+      tags: manuscript
+      s: 3
+
+    - name: Antibiotics Trend
+      url: https://www.mdpi.com/2079-6382/10/10/1267
+      thumbnail: paper-antibiotics-trend.png
+      visible: true
+      tags: manuscript
+      s: 3
+
+    - name: BMC SML sepsis
+      url: https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-017-0550-1
+      thumbnail: paper-bmc-supervised.png
+      visible: true
+      tags: manuscript
+      s: 3
+
+    - name: CBR Review
+      url: https://www.sciencedirect.com/science/article/pii/S1198743X17301258
+      thumbnail: paper-tim-review.png
+      visible: true
+      tags: manuscript
+      s: 3
+
+    - name: HEALTHINF CBR sepsis
+      url: https://www.scitepress.org/papers/2017/61484/61484.pdf
+      thumbnail: paper-healthinf-cbr.png
+      visible: true
+      tags: manuscript
+      s: 3

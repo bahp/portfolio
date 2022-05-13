@@ -1,0 +1,138 @@
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+ul {
+	list-style: none;
+	width: 100%;
+	/*margin:0;
+	padding:0;*/
+}
+
+/*
+li {
+	font-size: 20px;
+	color: black;
+	margin-top:5px; 
+	padding: 12px 12px;
+	width:400px;
+	border: 1px solid #ccc!important;
+	border-radius: 8px;
+}
+*/
+
+li:hover {
+  background-color: #e7e7e7;
+ /*color: white;*/
+}
+
+
+/*
+ * IFRAME
+ */
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9*/
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+/*
+ * CARD
+ */
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+
+	/*
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	*/
+}
+
+.card > img {
+	object-fit: fill;
+	/*background: yellow;*/
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+}
+
+/**
+  BUTTONS
+ */
+.btn-github {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.btn-github:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+	text-decoration:none;
+}
+.btn-github:active {
+	position:relative;
+	border:1px solid #dcdcdc;
+	/*top:1px;*/
+}
+
+
+/*
+ * HELPER
+ */
+.center {
+  	margin-left: auto;
+	margin-right: auto;
+	display: block;
+  	/*width: 70%;
+  	padding: 10px;
+	border: 3px solid green;*/
+}

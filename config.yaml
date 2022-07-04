@@ -104,6 +104,11 @@ portfolio:
       visible: true
       tags: repository
 
+    - name: ai-communications
+      thumbnail: page-aicomm-zine.png
+      visible: true
+      tags: website
+
     # -----------
     # Manuscripts
     # -----------

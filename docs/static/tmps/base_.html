@@ -208,18 +208,22 @@
 			<div class="container">
 				<div class="row folio projects">
 
-					 {% for item in cards %}
-                        {% if item.visible %}
-                            <div class="col-md-{{ item.s }}" data-roles="{{ item.tags }}">
-                                <div class="card mb-{{ item.s }} box-shadow">
-                                    {% include 'img.html' %}
-                                    <a href="{{ item.url }}" class="btn btn-light">
-                                        {{ item.name }}
-                                    </a>
-                                </div>
+          {% for item in cards %}
+            {% if item.visible %}
+                <div class="col-md-{{ item.s }}" data-roles="{{ item.tags }}">
+                    <div class="card mb-{{ item.s }} pb-0 box-shadow btn-outline-primary">
+                        <a class="pb-0" href="{{ item.url }}" target="_blank">
+                            {% include 'img.html' %}
+                            <div class="card-body bg-light pt-2 pb-2 rounded-bottom">
+                                <h6 class="card-title text-center text-dark mb-0">
+                                  {{ item.name }}
+                                </h6>
                             </div>
-                        {% endif %}
-                    {% endfor %}
+                        </a>
+                    </div>
+                </div>
+            {% endif %}
+          {% endfor %}
 
 				</div>
 			</div>

@@ -3,13 +3,13 @@ portfolio:
     # ------------------
     # Personal
     # ------------------
-    - name: LinkedIn
+    - name: Resume in LinkedIn
       url: https://www.linkedin.com/in/bahp
       thumbnail: page-linkedin-cv.png
       visible: true
       tags: website
 
-    - name: Resume (Wix)
+    - name: Resume in Wix
       url: https://bernardhernandezpe.wixsite.com/bahp
       thumbnail: page-wix-cv.png
       visible: true
@@ -21,7 +21,7 @@ portfolio:
       visible: false
       tags: website
 
-    - name: EPiC IMPOC (Wix)
+    - name: EPiC IMPOC in Wix
       url: https://bernardhernandezpe.wixsite.com/epicimpoc
       thumbnail: page-wix-epicimpoc.png
       visible: true
@@ -58,7 +58,7 @@ portfolio:
       tags: demo
 
     - name: github-ls2d
-      url: https://github.com/bahp/ls2d/
+      url: https://bahp.github.io/ls2d/
       thumbnail: repo-ls2d-docs.png
       visible: true
       tags: repository
@@ -105,9 +105,11 @@ portfolio:
       tags: repository
 
     - name: ai-communications
+      url: https://bahp.github.io/flipbooks/
       thumbnail: page-aicomm-zine.png
       visible: true
-      tags: website
+      tags: pdf
+
 
     # -----------
     # Manuscripts
@@ -126,49 +128,49 @@ portfolio:
       tags: manuscript
       s: 3
 
-    - name: BMC CRP dynamics
+    - name: CRP dynamics (BMC)
       url: https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-021-06696-2
       thumbnail: paper-bmc-damien-crp.png
       visible: true
       tags: manuscript
       s: 3
 
-    - name: JAC SML covid
+    - name: SML Covid (JAC)
       url: https://academic.oup.com/jacamr/article/3/1/dlab002/6127116?login=false
       thumbnail: paper-jac-tim-sml-covid.png
       visible: true
       tags: manuscript
       s: 3
 
-    - name: CID CBR prospective
+    - name: CBR prospective (CID)
       url: https://academic.oup.com/cid/article-abstract/72/12/2103/5815768?redirectedFrom=fulltext&login=false
       thumbnail: paper-cid-tim-cbr.png
       visible: true
       tags: manuscript
       s: 3
 
-    - name: JAC SML prospective
+    - name: SML prospective (JAC)
       url: https://academic.oup.com/jac/article/74/4/1108/5258037?login=false
       thumbnail: paper-jac-tim-sml-prospective.png
       visible: true
       tags: manuscript
       s: 3
 
-    - name: Antibiotics Trend
+    - name: AMR Trend (Antibiotics)
       url: https://www.mdpi.com/2079-6382/10/10/1267
       thumbnail: paper-antibiotics-trend.png
       visible: true
       tags: manuscript
       s: 3
 
-    - name: BMC SML sepsis
+    - name: SML Infection (BMC)
       url: https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-017-0550-1
       thumbnail: paper-bmc-supervised.png
       visible: true
       tags: manuscript
       s: 3
 
-    - name: CBR Review
+    - name: CBR Review (CMI)
       url: https://www.sciencedirect.com/science/article/pii/S1198743X17301258
       thumbnail: paper-tim-review.png
       visible: true

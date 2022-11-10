@@ -15,7 +15,7 @@ portfolio:
       visible: true
       tags: website
 
-    - name: Resume
+    - name: Resume in Github
       url: https://bahp.github.io/portfolio-web/
       #thumbnail: website
       visible: false
@@ -110,6 +110,17 @@ portfolio:
       visible: true
       tags: pdf
 
+    - name: epicimpoc-microbiology-video
+      url: https://www.youtube.com/watch?v=32pTOcXszyg
+      thumbnail: youtube-epicimpoc-microbiology.png
+      visible: true
+      tags: epicimpoc video
+
+    - name: epicimpoc-management-video
+      url: https://www.youtube.com/watch?v=U-Qb8E4NLuQ
+      thumbnail: youtube-epicimpoc-management.png
+      visible: true
+      tags: epicimpoc video
 
     # -----------
     # Manuscripts

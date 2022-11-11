@@ -125,6 +125,13 @@ portfolio:
     # -----------
     # Manuscripts
     # -----------
+    - name: BSc Thesis
+      url: ./docs/static/pdfs/bahp-thesis-urjc.pdf
+      thumbnail: paper-urjc-logo.png
+      visible: true
+      tags: manuscript
+      s: 3
+
     - name: MSc Thesis
       url: http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A703166&dswid=-8707
       thumbnail: paper-kth-logo.jpeg
